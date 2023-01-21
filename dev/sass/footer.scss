@@ -1,0 +1,18 @@
+footer {
+    height: 100px;
+    background: $orange-color;
+    margin-top: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    &:hover {
+        background-color: #b5781c;
+        transition: background-color 0.5s;
+
+    }
+    h2 {
+        color: $white-color;
+        font-size: $font-size-footer;
+    }
+}
+ 

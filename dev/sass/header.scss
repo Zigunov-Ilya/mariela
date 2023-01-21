@@ -1,0 +1,26 @@
+header{
+    height: 7vh;
+    padding: 15px 0;
+    background: #27861a;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	&:hover {
+        background-color: #1e5b15;
+        transition: background-color 0.5s;
+		a {
+			font-size: 35px;
+			transition: font-size 0.5s;
+		}
+    }
+	a {
+		&:hover {
+			color: rgb(188, 188, 188);
+			transition: color 0.5s;
+		}
+		color: #fff;
+		margin-right: 20px;
+		font-size: $font-size-header;
+		text-decoration: none;
+	}
+}
