@@ -1,26 +1,26 @@
-header{
-    height: 7vh;
-    padding: 15px 0;
-    background: #27861a;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-	&:hover {
-        background-color: #1e5b15;
-        transition: background-color 0.5s;
-		a {
-			font-size: 35px;
-			transition: font-size 0.5s;
-		}
-    }
-	a {
-		&:hover {
-			color: rgb(188, 188, 188);
-			transition: color 0.5s;
-		}
-		color: #fff;
-		margin-right: 20px;
-		font-size: $font-size-header;
+.nav {
+	&-container {
+		margin: 33px auto 24px auto;
+		max-width: 1300px;
+	}
+	&-item {
+		margin-left: 40px;
+		color: #C59CB9;
+	}
+	&-titles {
+		display: flex;
+	}
+	&-title {
+		color: inherit;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 30px;
 		text-decoration: none;
 	}
+}
+
+.site-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

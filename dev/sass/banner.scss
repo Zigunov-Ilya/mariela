@@ -1,0 +1,117 @@
+.banner {
+    &-template {
+        padding: 69px 0 70px;
+        background: linear-gradient(to bottom, #C9ADC6 43%, #D6BBD3 43%);
+    }
+    &-template-second {
+    background: #CEB3CB;
+    height: 825px;
+    }
+}
+
+.have-decoration {
+    position: relative;
+}
+
+.have-decoration::before {
+    content: "";
+    font-size: 72px;
+    width: 50px;
+    height: 50px;
+    background-color: #A78BA4;
+    display: block;
+    position: absolute;
+    top: 839px;
+    right: 113px;
+}
+
+.have-decoration::after {
+    content: "";
+    font-size: 72px;
+    width: 50px;
+    height: 50px;
+    background-color: #B08EAD;
+    display: block;
+    position: absolute;
+    top: 839px;
+    right: 63px;
+}
+
+.banner-template__container {
+    max-width: 1215px;
+    margin: 0 auto;
+    padding-left: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 75px;
+}
+
+.info-container {
+    padding: 154px 104px 124px 40px;
+    background-color: #B08EAD;
+    min-width: 425px;
+    width: 425px;
+    margin-left: -126px;
+}
+
+.reverse .info-container {
+    margin-left: 36px;
+    margin-right: -27px;
+}
+
+.reverse .img-box {
+    z-index: 1;
+}
+
+.img-z-index .img-box {
+    z-index: 1;
+}
+
+.img-z-index .info-container {
+    margin-left: -33px;
+    padding: 124px 104px 124px 50px;
+}
+
+.info-container__uppertitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.info-container__title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+    color: #FFFFFF;
+    margin-bottom: 22px;
+}
+
+.info-container__link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.revers .info-container {
+    margin-right: 50px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding-left: 101px;
+}

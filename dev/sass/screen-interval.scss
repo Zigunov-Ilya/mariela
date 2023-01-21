@@ -1,0 +1,41 @@
+.screen-interval {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 75px 0;
+}
+
+.screen-int__title {
+    margin-bottom: 13px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #B99BB6;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+
+.screen-int__subtitle {
+    width: 696px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    margin-bottom: 17px;
+    color: #5F4D5D;
+    text-align: center;
+}
+
+.screen-int__button {
+    background: none;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    border: #B99BB6 solid 2px;
+    color: #B99BB6;
+    padding: 16px 29px 14px 29px;
+    margin-bottom: 64px;
+    border-radius: 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}

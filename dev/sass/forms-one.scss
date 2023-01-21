@@ -1,0 +1,94 @@
+.forms-one {
+    min-height: 568px;
+    background: #CEB3CB;
+}
+
+.forms-one__container {
+    width: 100%;
+    max-width: 963px;
+    margin: 0 auto;
+    padding: 62px 25px 82px;
+}
+
+.forms-one-title {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.forms-one-description {
+    font-size: 21px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.forms-one__input::placeholder {
+    color: #fff;
+}
+
+.forms-one__input:focus {
+    outline: none;
+}
+
+.forms-one__input {
+    border: 1px solid #FFFFFF;
+    padding: 9px 0 10px 15px;
+    width: 100%;
+    background: none;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.forms-one__textarea {
+    border: 1px solid #FFFFFF;
+    padding: 9px 0 10px 15px;
+    height: 103px;
+    width: 100%;
+    background: none;
+    margin-bottom: 25px;
+    color: #fff;
+    resize: none;
+}
+
+.forms-one__textarea::placeholder {
+    color: #fff;
+}
+
+.forms-one__textarea:focus {
+    outline: none;
+    color: #fff;
+}
+
+.forms-one__btn {
+    background: none;
+    border: none;
+    font-size: 18px;
+    line-height: 30px;
+    cursor: pointer;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 9px 69px 10px 69px;
+    transition: background .3s, color .3s;
+}
+
+.forms-one__btn:focus {
+    background: #fff;
+    color: #000;
+}
